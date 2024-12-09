@@ -15,7 +15,7 @@ For Linux-based systems, this video: [NS-3 Installation Tutorial](https://youtu.
 ### 5G Lena Readme Documentation
 [5G Lena Documentation](https://gitlab.com/cttc-lena/nr/-/blob/master/README.md?ref_type=heads)
 
-For Windows, refer to the [NS-3 Installation Documentation](https://www.nsnam.org/docs/installation/html/windows.html).
+### For Windows, refer to the [NS-3 Installation Documentation](https://www.nsnam.org/docs/installation/html/windows.html).
 
 For specific IDE integration, such as VS Code or Eclipse, view the Getting Started Tutorial, Part 4: [NS-3 IDE Integration](https://www.nsnam.org/docs/tutorial/html/getting-started.html).
 
