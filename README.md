@@ -57,7 +57,7 @@ Ensure your file system path has been updated in the places where the program sa
 Set the logging output path to a location outside the `ns-3-dev` directory to avoid **significant slowdowns** during simulations, especially with a high number of simulation iterations!
 
 ## Running the Simulation with the Python Script
-Download the multi-trial Python script. Keeping it in the `ns-3-dev` folder works well.
+Download the multi-trial python script. Keeping it in the `ns-3-dev` folder works well, the function 'run_ns3_simulation' will execute the multi trial simulation run with the parameters you have provided.  In the 'run_ns3_simulation' function, pay attention to the 'script_name' variable. 
 
 ```python
 command = f'./ns3 run "{script_name} --RngRun={seed_value} --runNumber={runNum} --satSetup={satSetup} --errorRate={errorSet}"'
@@ -70,4 +70,40 @@ Ensure the `script_name` string includes the correct directory where the file is
 simulation = ['scratch/nrtv-baseline-udp.cc', 'scratch/updated_three-node-OnOff-test.cc', 'scratch/v2fileDownload.cc']
 ```
 
+You can alter the python script to run how you would like it to run a specifc number of iterations in a certain order. I usually use a for loop to iterate through the 'simulation' array of folders, either with another loop to iterate through the error rates, or at a single error rate. 
+
+### Telemetry Data - Application Two
+The telemetry data file functions the same way as the NRTV application file, ensure logging output paths are set correctly for your filesystem. 
+
 ### Multi-Application
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
